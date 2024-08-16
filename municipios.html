@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/andalucia.jpeg">
+    <title>Andalucía</title>
+</head>
+
+<body>
+    <header>
+        <img class="headerImg" src="img/escudo.jpeg">
+        <h1>ANDALUCÍA</h1>
+    </header>
+    <h2>Municipios y provincias andaluzas</h2>   
+    <label class="label" for="provincia">Provincia seleccionada: </label>
+    <input class="label" type="text" id="provincia" value="" readonly>
+    <br/>
+    <div id="municipio-container" class="invisible">
+        <h3>Municipios:</h3>
+        <table id="municipios-table">
+            <thead>
+                <tr>
+                    <th>Municipio</th>
+                    <th>Código postal</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <a class="btn" href="provincia.html" target="_self">Provincias</a>
+    <a class="btn" href="index.html" target="_self">Inicio</a>
+    <script src="municipios.js">
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+<footer>Andalucía</footer>
+
+</html>
